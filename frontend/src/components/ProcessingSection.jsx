@@ -33,7 +33,7 @@ const ProcessingSection = () => {
       <div className="w-full bg-gray-200 rounded-full h-2.5 mt-8 max-w-sm mx-auto">
         <div 
           className="bg-accent h-2.5 rounded-full transition-all duration-500 ease-out"
-          style={{ width: \`\${((currentStep + 1) / steps.length) * 100}%\` }}
+          style={{ width: `${((currentStep + 1) / steps.length) * 100}%` }}
         ></div>
       </div>
     </div>
